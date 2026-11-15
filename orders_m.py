@@ -94,7 +94,7 @@ def show_order_by_date(orders):
 
 def change_order(orders):
     ...
-
+#הוספת קנס ביטול הזמנה 
 def cencel_order(orders:list):
     client_choice = val.val_str("enter the id of the order to cencel: ")
     if_in = 0
