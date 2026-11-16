@@ -23,7 +23,8 @@ def main():
             orders_m.oeder_main()
         elif client_choice == "3":
             data_stats.data_main()
-
+        else:
+            print("chose legal option")
 
 
 
